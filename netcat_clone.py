@@ -29,4 +29,4 @@ def usage():
     print('./netcat_clone.py -t 192.168.0.1 -p 5555 -l -u=c:\\target.exe')
     print('./netcat_clone.py -t 192.168.0.1 -p 5555 -l -e=\"cat /etc/passwd\"')
     print('./netcat_clone.py -t 192.168.0.1 -p 5555 -l -u=c:\\target.exe')
-    print('echo 'ABCDEFGHI' | ./bhpnet.py -t 192.168.11.12 -p 13')
+    print('echo \'ABCDEFGHI\' | ./bhpnet.py -t 192.168.11.12 -p 135')
